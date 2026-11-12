@@ -1,0 +1,110 @@
+{
+  "wq": [
+    "WQ004",
+    "WQ052",
+    "WQ019",
+    "WQ035",
+    "WQ038",
+    "WQ026"
+  ],
+  "directions": {
+    "WQ002": 1,
+    "WQ003": -1,
+    "WQ004": 1,
+    "WQ006": -1,
+    "WQ008": -1,
+    "WQ009": -1,
+    "WQ010": 1,
+    "WQ012": 1,
+    "WQ013": 1,
+    "WQ014": -1,
+    "WQ015": 1,
+    "WQ016": 1,
+    "WQ018": -1,
+    "WQ019": 1,
+    "WQ020": -1,
+    "WQ022": 1,
+    "WQ023": 1,
+    "WQ024": 1,
+    "WQ026": 1,
+    "WQ030": 1,
+    "WQ033": 1,
+    "WQ034": 1,
+    "WQ035": 1,
+    "WQ037": -1,
+    "WQ038": 1,
+    "WQ040": 1,
+    "WQ044": 1,
+    "WQ045": 1,
+    "WQ046": -1,
+    "WQ049": -1,
+    "WQ051": -1,
+    "WQ052": 1,
+    "WQ053": -1,
+    "WQ054": 1,
+    "WQ055": 1,
+    "WQ101": -1
+  },
+  "decisions": [
+    {
+      "factor": "WQ004",
+      "accepted": true,
+      "max_abs_daily_rank_corr": 0.0,
+      "correlations": {}
+    },
+    {
+      "factor": "WQ052",
+      "accepted": true,
+      "max_abs_daily_rank_corr": 0.41384873360940966,
+      "correlations": {
+        "WQ004": 0.41384873360940966
+      }
+    },
+    {
+      "factor": "WQ019",
+      "accepted": true,
+      "max_abs_daily_rank_corr": 0.5358624028817264,
+      "correlations": {
+        "WQ004": 0.4501373439972803,
+        "WQ052": 0.5358624028817264
+      }
+    },
+    {
+      "factor": "WQ035",
+      "accepted": true,
+      "max_abs_daily_rank_corr": 0.4649648928777621,
+      "correlations": {
+        "WQ004": 0.4649648928777621,
+        "WQ052": 0.30531188026595985,
+        "WQ019": 0.38787041211253587
+      }
+    },
+    {
+      "factor": "WQ038",
+      "accepted": true,
+      "max_abs_daily_rank_corr": 0.7203864728159427,
+      "correlations": {
+        "WQ004": 0.544144214189334,
+        "WQ052": 0.30226286225746957,
+        "WQ019": 0.43127754255175427,
+        "WQ035": 0.7203864728159427
+      }
+    },
+    {
+      "factor": "WQ026",
+      "accepted": true,
+      "max_abs_daily_rank_corr": 0.15229686971587827,
+      "correlations": {
+        "WQ004": 0.1255853397273326,
+        "WQ052": 0.15229686971587827,
+        "WQ019": 0.127813231467154,
+        "WQ035": 0.08617209338209772,
+        "WQ038": 0.07491719292001009
+      }
+    }
+  ],
+  "selection_period": "2018-2019",
+  "direction_period": "2015-2017",
+  "candidate_count": 36,
+  "development_reused_for_ML_tuning": false
+}

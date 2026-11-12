@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+/data
+/data 2/
+/runs/
+*.pkl
+*.parquet
+*.npy
+*.joblib
+reports/final/*.aux
+reports/final/*.log
+reports/final/*.out
+reports/final/*.toc
+
+/backups/
+/data.zip
+
+# Submission excludes
+/reports/
+/reports*.zip
+/README*
+**/README*
+/tmp/
+/Video_Presentation_Script.md
+/项目最新进度.md
